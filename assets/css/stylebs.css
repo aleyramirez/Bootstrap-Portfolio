@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/wooden.jpeg");
+}
+#head_content, #panel_brand  {
+    background: rgba(255, 255, 255, 0.8);
+	color: #4ece9f;
+	margin-bottom: 5%;
+}
+#navbar {
+    color: #4ece9f;
+    background-color: white;
+    border-bottom: solid 3px #4ece9f;
+}
+#navbar a:hover {
+	background-color: rgb(182, 182, 182);
+    color: black;
+}
+.nav a.active {
+	margin-left: 17%;
+	margin-right: 33%;
+	background-color: #4ece9f;
+	border-right: none;
+	color: white;
+}
+#nav_brand {
+    background-color: #4ece9f;
+    color: white;
+}
+#header_container {
+    text-decoration: none;
+}
+#head_align {
+	width: 98%;
+	margin: 0px auto;
+}
+.img_thumbnail {
+	margin: 3%
+}
+.icons {
+    height: 50px;
+	width: 50px;
+}
+#footer {
+    position: fixed;
+	height: 40px;
+	bottom: 0;
+	width: 100%;
+	background-color: #7c7c7c;
+	color: white;
+	text-align: center;
+	border-top: solid 3px #4ece9f;
+}
+p {
+    color: rgb(77, 77, 77);
+}
